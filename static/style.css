@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    background-color: rgb(226, 202, 202);
+    height:100px;
+    color: rgb(219, 56, 59)
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head img{
+    height:80px;
+    width:80px;
+    border-radius:43px;
+}
+.logo1{
+   margin-right: 255px;
+}
+.logo2{
+   margin-left: 255px;
+}
+/* heading and name of shop end here */
+/* Now i am styling navigation bar */
+
+
+.nav{
+    color: white;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.nav li:hover{
+    background-color: rgb(131, 186, 238);
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.nav ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    font-size: 23px;
+    font-weight: bolder;
+    padding:11px;
+    margin: 19px;
+    list-style: none;
+}
+.nav ul li a{
+   text-decoration:none;
+   color:white;
+
+}
+.nav ul li a:hover{
+   color:rgb(136, 92, 161);
+   font-size: 27px;
+}
+
+/* sponser section  */
+.sponser-section{
+
+    height:200px;
+    background-color: grey;
+    color: white;
+}
+.inner-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-section td{
+    color:white;
+    padding: 23px;
+}
+.inner-section td a{
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.inner-section td a:hover{
+    font-size: 20px;
+    
+font-weight: bold;
+}

@@ -1,0 +1,35 @@
+html
+  head
+    title  #{title}
+    style 
+      include ../static/style.css
+    block style    
+  body
+    div.head
+      <img src="/static/img/logo.jpg" class="logo1" alt="this is image">
+      h1 Shri Balaji Kitnashak kendra,Kulwa,ALigarh
+      <img src="/static/img/logo.jpg" class="logo2" alt="this is image">
+    div.nav 
+      ul 
+        li #[a(href="/") Home]
+        li #[a(href="/items") Items]
+        li #[a(href="/about") About]
+        li #[a(href="/contact") Contact]
+    block content 
+  .sponser-section
+      h2 All important links
+        .inner-section 
+          <table>
+            <tr>
+              <td><a href="/">Home
+              <td><a href="/about">About  
+              <td><a href="/items">itmes
+              <td><a href="/contact"> contact
+            <tr>
+              <td><a href="https://wa.me/+918077627180?text=Welcome to %20Shri%20Balaji%20Agriculture%20service%20provider%20*Enter%20your name*%20And%20*Village Name*%20send%20photo%20of%20your%20crop%20                                                                                                                                                                                      %20 *श्री बालाजी कृषि सेवा प्रदाता में आपका स्वागत है अपना नाम दर्ज करें और गांव का नाम अपनी फसल की फोटो भेजें*">whatsapp
+              <td><a href="">Will come  
+              <td><a href="">Will come  
+              <td><a href="">Will come  
+        
+             
+      #footer

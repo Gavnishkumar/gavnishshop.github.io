@@ -1,0 +1,40 @@
+extends temp.pug
+block style
+    style 
+        include ../static/index.css
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js")  
+    script 
+        include ../static/index.js
+block content 
+    div.container 
+        div.container-text
+            .mytext
+                h1 Welcome to Balaji Beej bhandar 
+                h1 owned by Kushal pal singh
+                h1 कुशल पाल सिंह के स्वामित्व वाले बालाजी बीज भंडार में आपका स्वागत है
+        div.side-image 
+            h2 Some well known crops
+                .section#section1
+                    h3 Wheat
+                .section#section2
+                    h3 Rice
+                .section#section3
+                    h3 Millet(Baajra) 
+                .section#section4
+                    h3 more crops comming soon
+    .mycontent 
+        div.data
+        h2 Well konwn shop in Kulwa at Aligarh. Owned by <strong>MR.Kushal Pal Singh</strong> From chuawali.
+        p I welcome you to <strong> Balaji kitnashak kendra,Kulwa</strong> you will get best Agriculture products.
+        p you will have a best mentor to made your crop healthy and glossy  
+        p you can contact for any query on <strong><i><u>8077627180</u></i></strong>
+        p otherwise go to contact page <i><u><a href="/contact">Click here to go to contact page</a></u></i>
+        div.photo 
+            img(src="/static/img/papa1.jpg", alt="", srcset="")
+            img(src="/static/img/exp.jpg", alt="")
+    .whatsapp
+        h2 Click here to direct chat on whatsapp
+        h1 👇👇👇👇👇👇
+        <img src = "https://image.freepik.com/free-vector/whatsapp-icon-design_23-2147900927.jpg" height="50" size="50" onclick="openWhatsApp()">  
+        
+                
